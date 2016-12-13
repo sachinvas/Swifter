@@ -2,23 +2,24 @@
 layout: default
 ---
 
-A handy collection of **more than 360 native Swift 3 extensions** to boost your productivity.
+A handy collection of **more than 370 native Swift 3 extensions** to boost your productivity.
 
-## [Whats New in v1.3?](./new)
-v1.3 adds **more than 90 new extensions** making it the widest extensions library available online for Swift 3 with extensions for more than **35 type**.
-This is the biggest update since library launch! we're so excited 🤓
+
+## [Whats New in v1.3?](https://github.com/omaralbeik/SwifterSwift/wiki/whats-new#v13)
+v1.3 adds **more than 90 new extensions** making it the widest extensions library available online for Swift 3 with extensions for more than **36 type**.
+This is the biggest update since library launch! We're so excited 🤓.
 
 ## Requirements:
 
 Xcode 8 (or later) with Swift 3.
-This library is made for iOS 8 or later, however most of the extensions should work on watchOS, tvOS, and macOS
+This library is made for iOS 8 or later, however most of the extensions should work on watchOS, tvOS, and macOS.
 
 
 ## Installation
 
 ### CocoaPods
 
-[CocoaPods](//cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
+[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
 
 ```bash
 $ gem install cocoapods
@@ -42,9 +43,31 @@ Then, run the following command:
 $ pod install
 ```
 
+
+### Carthage
+
+[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
+
+You can install Carthage with [Homebrew](http://brew.sh/) using the following command:
+
+```bash
+$ brew update
+$ brew install carthage
+```
+
+To integrate SwifterSwift into your Xcode project using Carthage, specify it in your `Cartfile`:
+
+```ogdl
+github "omaralbeik/SwifterSwift" ~> 1.3.4
+```
+
+Run `carthage update` to build the framework and drag the built `SwifterSwift.framework` into your Xcode project.
+
+
+
 ### Manually
 
-Add the [extensions](Extensions) folder to your Xcode project to use all extensions, or a specific extension.
+Add the [extensions](SwifterSwift/SwifterSwift/Extensions) folder to your Xcode project to use all extensions, or a specific extension.
 
 
 
@@ -56,46 +79,47 @@ Please refer to the [contributing guidelines](CONTRIBUTING.md) before participat
 
 ## List Of Extensions
 
-- [Array extensions](//github.com/omaralbeik/SwifterSwift/wiki/array-extensions)
-- [Bool extensions](//github.com/omaralbeik/SwifterSwift/wiki/bool-extensions)
-- [Character extensions](//github.com/omaralbeik/SwifterSwift/wiki/character-extensions)
-- [Data extensions](//github.com/omaralbeik/SwifterSwift/wiki/data-extensions)
-- [Date extensions](//github.com/omaralbeik/SwifterSwift/wiki/date-extensions)
-- [Dictionary extensions](//github.com/omaralbeik/SwifterSwift/wiki/dictionary-extensions)
-- [Double extensions](//github.com/omaralbeik/SwifterSwift/wiki/double-extensions)
-- [Float extensions](//github.com/omaralbeik/SwifterSwift/wiki/float-extensions)
-- [Int extensions](//github.com/omaralbeik/SwifterSwift/wiki/int-extensions)
-- [String extensions](//github.com/omaralbeik/SwifterSwift/wiki/string-extensions)
-- [SwifterSwift](//github.com/omaralbeik/SwifterSwift/wiki/swifterswift)
-- [CGFloat extensions](//github.com/omaralbeik/SwifterSwift/wiki/cgfloat-extensions)
-- [CGPoint extensions](//github.com/omaralbeik/SwifterSwift/wiki/cgpoint-extensions)
-- [CGSize extensions](//github.com/omaralbeik/SwifterSwift/wiki/cgsize-extensions)
-- [NSAttributedString extensions](//github.com/omaralbeik/SwifterSwift/wiki/nsstring-extensions)
-- [UIAlertController extensions](//github.com/omaralbeik/SwifterSwift/wiki/nsattributedstring-extensions)
-- [UIBarButtonItem extensions](//github.com/omaralbeik/SwifterSwift/wiki/uibarbuttonitem-extensions)
-- [UIButton extensions](//github.com/omaralbeik/SwifterSwift/wiki/uibutton-extensions)
-- [UIColor extensions](//github.com/omaralbeik/SwifterSwift/wiki/uicolor-extensions)
-- [UIImage extensions](//github.com/omaralbeik/SwifterSwift/wiki/uiimage-extensions)
-- [UIImageView extensions](//github.com/omaralbeik/SwifterSwift/wiki/uiimageview-extensions)
-- [UILabel extensions](//github.com/omaralbeik/SwifterSwift/wiki/uilabel-extensions)
-- [UINavigationBar extensions](//github.com/omaralbeik/SwifterSwift/wiki/uinavigationbar-extensions)
-- [UINavigationController extensions](//github.com/omaralbeik/SwifterSwift/wiki/uinavigationcontroller-extensions)
-- [UINavigationItem extensions](//github.com/omaralbeik/SwifterSwift/wiki/uinavigationitem-extensions)
-- [UISearchBar extensions](//github.com/omaralbeik/SwifterSwift/wiki/uisearchbar-extensions)
-- [UISegmentedControl extensions](//github.com/omaralbeik/SwifterSwift/wiki/uisegmentedcontrol-extensions)
-- [UISlider extensions](//github.com/omaralbeik/SwifterSwift/wiki/uislider-extensions)
-- [UISwitch extensions](//github.com/omaralbeik/SwifterSwift/wiki/uiswitch-extensions)
-- [UITabBar extensions](//github.com/omaralbeik/SwifterSwift/wiki/uitabbar-extensions)
-- [UITableView extensions](//github.com/omaralbeik/SwifterSwift/wiki/uitableview-extensions)
-- [UITextField extensions](//github.com/omaralbeik/SwifterSwift/wiki/uitextfield-extensions)
-- [UITextView extensions](//github.com/omaralbeik/SwifterSwift/wiki/uitextview-extensions)
-- [UIView extensions](//github.com/omaralbeik/SwifterSwift/wiki/uiview-extensions)
-- [UIViewController extensions](//github.com/omaralbeik/SwifterSwift/wiki/uiviewcontroller-extensions)
+- [Array extensions](https://github.com/omaralbeik/SwifterSwift/wiki/array-extensions)
+- [Bool extensions](https://github.com/omaralbeik/SwifterSwift/wiki/bool-extensions)
+- [Character extensions](https://github.com/omaralbeik/SwifterSwift/wiki/character-extensions)
+- [Data extensions](https://github.com/omaralbeik/SwifterSwift/wiki/data-extensions)
+- [Date extensions](https://github.com/omaralbeik/SwifterSwift/wiki/date-extensions)
+- [Dictionary extensions](https://github.com/omaralbeik/SwifterSwift/wiki/dictionary-extensions)
+- [Double extensions](https://github.com/omaralbeik/SwifterSwift/wiki/double-extensions)
+- [Float extensions](https://github.com/omaralbeik/SwifterSwift/wiki/float-extensions)
+- [Int extensions](https://github.com/omaralbeik/SwifterSwift/wiki/int-extensions)
+- [String extensions](https://github.com/omaralbeik/SwifterSwift/wiki/string-extensions)
+- [SwifterSwift](https://github.com/omaralbeik/SwifterSwift/wiki/swifterswift)
+- [CGFloat extensions](https://github.com/omaralbeik/SwifterSwift/wiki/cgfloat-extensions)
+- [CGPoint extensions](https://github.com/omaralbeik/SwifterSwift/wiki/cgpoint-extensions)
+- [CGSize extensions](https://github.com/omaralbeik/SwifterSwift/wiki/cgsize-extensions)
+- [NSAttributedString extensions](https://github.com/omaralbeik/SwifterSwift/wiki/nsattributedstring-extensions)
+- [UIAlertController extensions](https://github.com/omaralbeik/SwifterSwift/wiki/uialertcontroller-extensions)
+- [UIBarButtonItem extensions](https://github.com/omaralbeik/SwifterSwift/wiki/uibarbuttonitem-extensions)
+- [UIButton extensions](https://github.com/omaralbeik/SwifterSwift/wiki/uibutton-extensions)
+- [UICollectionView extensions](https://github.com/omaralbeik/SwifterSwift/wiki/uicollectionview-extensions)
+- [UIColor extensions](https://github.com/omaralbeik/SwifterSwift/wiki/uicolor-extensions)
+- [UIImage extensions](https://github.com/omaralbeik/SwifterSwift/wiki/uiimage-extensions)
+- [UIImageView extensions](https://github.com/omaralbeik/SwifterSwift/wiki/uiimageview-extensions)
+- [UILabel extensions](https://github.com/omaralbeik/SwifterSwift/wiki/uilabel-extensions)
+- [UINavigationBar extensions](https://github.com/omaralbeik/SwifterSwift/wiki/uinavigationbar-extensions)
+- [UINavigationController extensions](https://github.com/omaralbeik/SwifterSwift/wiki/uinavigationcontroller-extensions)
+- [UINavigationItem extensions](https://github.com/omaralbeik/SwifterSwift/wiki/uinavigationitem-extensions)
+- [UISearchBar extensions](https://github.com/omaralbeik/SwifterSwift/wiki/uisearchbar-extensions)
+- [UISegmentedControl extensions](https://github.com/omaralbeik/SwifterSwift/wiki/uisegmentedcontrol-extensions)
+- [UISlider extensions](https://github.com/omaralbeik/SwifterSwift/wiki/uislider-extensions)
+- [UISwitch extensions](https://github.com/omaralbeik/SwifterSwift/wiki/uiswitch-extensions)
+- [UITabBar extensions](https://github.com/omaralbeik/SwifterSwift/wiki/uitabbar-extensions)
+- [UITableView extensions](https://github.com/omaralbeik/SwifterSwift/wiki/uitableview-extensions)
+- [UITextField extensions](https://github.com/omaralbeik/SwifterSwift/wiki/uitextfield-extensions)
+- [UITextView extensions](https://github.com/omaralbeik/SwifterSwift/wiki/uitextview-extensions)
+- [UIView extensions](https://github.com/omaralbeik/SwifterSwift/wiki/uiview-extensions)
+- [UIViewController extensions](https://github.com/omaralbeik/SwifterSwift/wiki/uiviewcontroller-extensions)
 
 
 ## How cool is this?
 
-SwifterSwift is a library of over **360 properties and methods**, designed to extend Swift's functionality and productivity, staying faithful to the original API design guidelines of swift 3.
+SwifterSwift is a library of over **370 properties and methods**, designed to extend Swift's functionality and productivity, staying faithful to the original API design guidelines of Swift 3.
 
 Here are some examples:
 
@@ -305,7 +329,9 @@ view.roundCorners([.bottomLeft, .topRight], radius: 30)
 view.addShadow(ofColor .black, radius: 3, opacity: 0.5)
 
 ```
-![storyboard](//raw.githubusercontent.com/omaralbeik/SwifterSwift/master/Screenshots/view_storyboard.png)
+<p align="left">
+  <img src="http://raw.githubusercontent.com/omaralbeik/SwifterSwift/master/Screenshots/view_storyboard.png" title="UIButton properties from storyboard" width='250px'>
+</p>
 
 ```swift
 // Animate view with completion
@@ -364,7 +390,9 @@ button.titleForHighlighted = "Login"
 
 // and many others!
 ```
-![buttons](https://raw.githubusercontent.com/omaralbeik/SwifterSwift/master/Screenshots/button_storyboard.png)
+<p align="left">
+  <img src="http://raw.githubusercontent.com/omaralbeik/SwifterSwift/master/Screenshots/button_storyboard.png" title="UIButton properties from storyboard" width='250px'>
+</p>
 
 
 #### UIImage Extensions
@@ -397,7 +425,7 @@ image.kilobytesSize = 114
 imageView.download(from url, contentMode: .scaleAspectFit, placeHolder: UIImage?)
 
 // Blur image view
-imageVuew.blur(withStyle: .light)
+imageView.blur(withStyle: .light)
 
 // and many others!
 ```
@@ -462,8 +490,8 @@ SwifterSwift.didTakeScreenShot {
 
 Special thanks to:
 
-* [Mert Akengin](//github.com/PvtMert) for creating [project website](http://swiftierswift.com) and helping with unit testing
+* [Mert Akengin](https://github.com/PvtMert) for creating [project website](http://swiftierswift.com) and helping with unit testing
 
-* [Abdul Rahman Dabbour](//github.com/thedabbour) for helping document the project
+* [Abdul Rahman Dabbour](https://github.com/thedabbour) for helping document the project
 
-* [John Doe](//en.wikipedia.org/wiki/John_Doe), This is a random person of our friends who gets us some coffee day to day
+* [John Doe](https://en.wikipedia.org/wiki/John_Doe), This is a random person of our friends who gets us some coffee day to day
