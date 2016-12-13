@@ -3,11 +3,11 @@ layout: default
 ---
 
 # v1.3.5
-###DateExtensions:
+### DateExtensions:
 Fixed a bug in DateExtensinos where year was not set correctly. Thanks to [songhailiang](https://github.com/songhailiang) you for reporting this bug.
 
 # v1.3.4
-###UIViewExtensions:
+### UIViewExtensions:
  - **func addConstraints(withFormat: String, views: UIView...)**: Add Visual Format constraints
  - **func fillToSuperview()**: Anchor all sides of the view into it's superview
  - **func anchor(top: NSLayoutYAxisAnchor?, left: NSLayoutXAxisAnchor?, bottom: NSLayoutYAxisAnchor?, right: NSLayoutXAxisAnchor?, topConstant: CGFloat, leftConstant: CGFloat, bottomConstant: CGFloat, rightConstant: CGFloat, widthConstant: CGFloat, heightConstant: CGFloat) -> [NSLayoutConstraint]**: Add anchors from any side of the current view into the specified anchors and returns the newly added constraints.
@@ -25,7 +25,7 @@ Thanks to [Jonathan Bijos](https://github.com/Quaggie) & [zzjzz9266a](https://gi
 Added [CollectionViewExtensions](https://github.com/omaralbeik/SwifterSwift/wiki/uicollectionview-extensions)
 
 # v1.3.1
-###ArrayExtensions:
+### ArrayExtensions:
 - removed duplicated contains method
 - use of reduce to remove duplicates (Thanks to [sairamkotha](https://github.com/sairamkotha))
 
@@ -47,18 +47,18 @@ Here are some changes:
 
 ## v1.2.2
 
-###New Extensions:
+### New Extensions:
  - **UIColorExtensions**:
  	- **struct material**: get [Google material palette colors](https://material.google.com/style/color.html) with ease
 
-###Updated Extensions:
+### Updated Extensions:
  - **UIColorExtensions**:
  	- struct socialColors -> **struct social**
 
 
 ## v1.2.1
 
-###New Extensions:
+### New Extensions:
 
  - **ConvenienceExtensions**:
  	- **func string(forKey: String)**: Get a string from UserDefaults
@@ -82,7 +82,7 @@ Here are some changes:
  	- **func setColors(background, text)**: Set Navigation Bar background and text colors.
 
 
-###Updated Extensions:
+### Updated Extensions:
 
  - **ConvenienceExtensions**:
  	- var deviceHeight -> **var screenHeight**
@@ -133,7 +133,7 @@ Here are some changes:
  - **UIViewExtensions**:
  	- func loadFromNibNamed(nibNamed: String, bundle : Bundle?) -> **func loadFromNib(named: String, bundle : Bundle?)**
 
-###Removed Extensions:
+### Removed Extensions:
  - **StringExtensions**:
 	 - var locale
 
