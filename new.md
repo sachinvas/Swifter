@@ -3,11 +3,13 @@ layout: default
 ---
 
 # v1.3.5
+
 ### DateExtensions:
 
 Fixed a bug in DateExtensinos where year was not set correctly. Thanks to [songhailiang](https://github.com/songhailiang) you for reporting this bug.
 
 # v1.3.4
+
 ### UIViewExtensions:
 
 - **func addConstraints(withFormat: String, views: UIView...)**: Add Visual Format constraints
@@ -28,6 +30,7 @@ Thanks to [Jonathan Bijos](https://github.com/Quaggie) & [zzjzz9266a](https://gi
 Added [CollectionViewExtensions](https://github.com/omaralbeik/SwifterSwift/wiki/uicollectionview-extensions)
 
 # v1.3.1
+
 ### ArrayExtensions:
 - removed duplicated contains method
 - use of reduce to remove duplicates (Thanks to [sairamkotha](https://github.com/sairamkotha))
