@@ -1,28 +1,55 @@
 ---
 layout: default
 ---
-# v1.3
 
+# v1.3.5
+###DateExtensions:
+Fixed a bug in DateExtensinos where year was not set correctly. Thanks to [songhailiang](https://github.com/songhailiang) you for reporting this bug.
+
+# v1.3.4
+###UIViewExtensions:
+ - **func addConstraints(withFormat: String, views: UIView...)**: Add Visual Format constraints
+ - **func fillToSuperview()**: Anchor all sides of the view into it's superview
+ - **func anchor(top: NSLayoutYAxisAnchor?, left: NSLayoutXAxisAnchor?, bottom: NSLayoutYAxisAnchor?, right: NSLayoutXAxisAnchor?, topConstant: CGFloat, leftConstant: CGFloat, bottomConstant: CGFloat, rightConstant: CGFloat, widthConstant: CGFloat, heightConstant: CGFloat) -> [NSLayoutConstraint]**: Add anchors from any side of the current view into the specified anchors and returns the newly added constraints.
+ - **func anchorCenterXToSuperview(withConstant: CGFloat)**: Anchor center X into current view's superview with a constant margin value.
+ - **anchorCenterYToSuperview(constant: CGFloat)**: Anchor center Y into current view's superview with a constant margin value.
+ - **func anchorCenterSuperview()**: Anchor center X and Y into current view's superview
+
+### IntExtensions:
+ - **kFormatted**: String formatted for values over ±1000 (example: 1k, -2k, 100k, 1kk, -5kk..)
+
+Thanks to [Jonathan Bijos](https://github.com/Quaggie) & [zzjzz9266a](https://github.com/zzjzz9266a) for adding new extensions.
+
+
+# v1.3.2
+Added [CollectionViewExtensions](https://github.com/omaralbeik/SwifterSwift/wiki/uicollectionview-extensions)
+
+# v1.3.1
+###ArrayExtensions:
+- removed duplicated contains method
+- use of reduce to remove duplicates (Thanks to [sairamkotha](https://github.com/sairamkotha))
+
+# v1.3
 This version adds **more than 90 new extensions** making it the widest extensions library available online for Swift 3 with **more than 360 properties and methods for more than 35 type**.
 This is the biggest update since library launch! we're so excited 🤓
 
 Here are some changes:
-- Updated some properties and methods names to follow [Swift API Design Guidelines](//developer.apple.com/videos/play/wwdc2016/403/).
+- Updated some properties and methods names to follow [Swift API Design Guidelines](https://developer.apple.com/videos/play/wwdc2016/403/).
 - Added default values to methods parameters (where possible).
 - All units documentation has been re-written in xcode,
   - Now you see "**SwifterSwift:** " at the beginning of description to know the source of the extension while writing your code.
   - All method parameters and return types has been documented in xcode as well.
-  - All extensions documentation has been re-written in [Wiki](//github.com/omaralbeik/SwifterSwift/wiki), separating properties from methods in different tables.
+  - All extensions documentation has been re-written in [Wiki](https://github.com/omaralbeik/SwifterSwift/wiki), separating properties from methods in different tables.
 - All extensions files re-organized in separate extensions based on type (properties, methods, initializers, ..)
 - Fixed some bugs where some extensions were not public.
-- New section explaining how to add new extensions in [Contributing Guidelines](//github.com/omaralbeik/SwifterSwift/blob/master/CONTRIBUTING.md)
+- New section explaining how to add new extensions in [Contributing Guidelines](https://github.com/omaralbeik/SwifterSwift/blob/master/CONTRIBUTING.md)
 - And finally: new logo
 
 ## v1.2.2
 
 ###New Extensions:
  - **UIColorExtensions**:
- 	- **struct material**: get [Google material palette colors](//material.google.com/style/color.html) with ease
+ 	- **struct material**: get [Google material palette colors](https://material.google.com/style/color.html) with ease
 
 ###Updated Extensions:
  - **UIColorExtensions**:
